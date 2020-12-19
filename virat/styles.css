@@ -1,0 +1,63 @@
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side {
+    display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right:20px;
+    font-size:0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+a {
+    color: rgb(181, 212, 199) ;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black ;
+}
+
+a:hover {
+    color: lightsalmon;
+}
+body{
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+.subtitle {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:aquamarine;
+    font-weight: 100;
+    margin-top:0ch;
+    margin-left:270px ;
+    float: right;
+    float: top;
+    position:fixed;
+  
+}
+.logo-wrapper {
+
+    border-width: 2px;
+    border-color: bisque;
+    margin-left: 0ch;
+    margin-top: 0ch;
+    position: fixed;
+}
+
+
+
